@@ -1,0 +1,26 @@
+#{email:ceshi@ctgtmo.com,passwd:42f2c22d3a955b210c10d16d43472b30,time:1555580396814,validateCode:jjjj}
+
+  url: http://test.weifenghr.com/wf-login/api/user/login
+  method: post
+  data:
+    email: ceshi@ctgtmo.com
+    passwd: 42f2c22d3a955b210c10d16d43472b30
+    time: 1555580396814
+    validateCode: jjjj
+  header:
+    Content-Type: application/json
+  check:
+    code: 2026
+#账号输入错误
+#-
+#  url: http://test.weifenghr.com/wf-login/api/user/login
+#  method: post
+#  data:
+#    email: shice@ctgtmo.com
+#    passwd: 42f2c22d3a955b210c10d16d43472b30
+#    time: 1555580396814
+#    validateCode: jjjj
+#  header:
+#    Content-Type: application/json
+#  check:
+#    code: 2026
